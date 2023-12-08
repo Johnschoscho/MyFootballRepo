@@ -20,7 +20,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="bl"
         android:text=" City: London \n Stadium: Emirates Stadium \n Capacity: 60,704 \n Captain: Martin Odegaard \n Manager: Mikel Arteta"
         android:textColor="@color/black"
         android:textSize="20sp" />
