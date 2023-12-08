@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFC107"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sheffield United"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -19,7 +21,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: Sheffield \n Stadium: Bramall Lane \n Manager: Slaviša Jokanović"
+        android:text=" City: Sheffield \n Stadium: Bramall Lane \n Capacity: 32,050 \n Captain: John Egan \n Manager: Chris Wilder"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView

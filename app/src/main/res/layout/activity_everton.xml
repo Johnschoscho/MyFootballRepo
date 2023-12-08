@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1A2BC1"
     tools:context=".MainActivity">
 
     <ImageView
@@ -18,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Everton"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -27,7 +29,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: Liverpool \n Stadium: Goodison Park \n Manager: Rafael Benítez"
+        android:text=" City: Liverpool \n Stadium: Goodison Park \n Capacity: 39,414 \n Captain: Seamus Coleman \n Manager: Sean Dyche"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
 </RelativeLayout>

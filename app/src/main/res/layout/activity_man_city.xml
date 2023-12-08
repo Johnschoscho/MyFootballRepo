@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00DCFA"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Manchester City"
-
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -21,7 +22,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: Manchester \n Stadium: Etihad Stadium \n Manager: Guardiola"
+        android:text=" City: Manchester \n Stadium: Etihad Stadium \n Capacity: 53,400 \n Captain: Kevin De Bruyne \n Manager: Pep Guardiola"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView

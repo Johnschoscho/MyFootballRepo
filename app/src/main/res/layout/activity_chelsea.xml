@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00338A"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chelsea:"
-
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -28,7 +29,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: North London /n Stadium: Stamford Bridge /n Manager: Pochettino "
+        android:textColor="@color/black"
+        android:text=" City: London \n Stadium: Stamford Bridge \n Capacity: 40,173 \n Captain: Reece James \n Manager: Mauricio Pochettino "
         android:textSize="20sp" />
 
 </RelativeLayout>

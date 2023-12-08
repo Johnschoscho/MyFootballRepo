@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C11313"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Manchester United"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -20,7 +22,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: Manchester \n Stadium: Old Trafford \n Manager: Solskjær"
+        android:text=" City: Manchester \n Stadium: Old Trafford \n Capacity: 74,031 \n Captain: Bruno Fernandes \n Manager: Erik ten Hag"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView

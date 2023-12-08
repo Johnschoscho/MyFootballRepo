@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#0023FF"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Brighton"
+        android:text="Brighton &amp; Hove Albion"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -19,7 +21,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: Brighton \n Stadium: Amex Stadium \n Manager: Graham Potter"
+        android:text=" City: Brighton \n Stadium: Amex Stadium \n Capacity: 31,876 \n Captain: Lewis Dunk \n Manager: Roberto De Zerbi"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView

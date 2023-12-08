@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6A1B1B"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Aston Villa"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -19,7 +21,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: Birmingham \n Stadium: Villa Park \n Manager: Steven Gerrard"
+        android:textColor="@color/black"
+        android:text=" City: Birmingham \n Stadium: Villa Park \n Capacity: 42,640 \n Captain: John McGinn \n Manager: Unai Emery"
         android:textSize="20sp" />
 
     <ImageView

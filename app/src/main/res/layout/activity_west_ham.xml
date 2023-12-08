@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#08D1EC"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="West Ham"
+        android:text="West Ham United"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -19,7 +21,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: London \n Stadium: London Stadium \n Manager: David Moyes"
+        android:text=" City: London \n Stadium: London Stadium \n Capacity: 62,500 \n Captain: Kurt Zouma \n Manager: David Moyes"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView

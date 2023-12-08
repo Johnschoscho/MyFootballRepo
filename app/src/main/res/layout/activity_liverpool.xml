@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A50707"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Liverpool"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -20,7 +22,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: Liverpool \n Stadium: Anfield \n Manager: Klopp"
+        android:text=" City: Liverpool \n Stadium: Anfield \n Capacity: 61,276 \n Captain: Virgil van Dijk \n Manager: Jurgen Klopp"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView

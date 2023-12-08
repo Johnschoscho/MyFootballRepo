@@ -4,22 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#AF1D1D"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Arsenal"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="City: London \n Stadium: Emirates Stadium \n Manager: Arteta"
+        android:background="bl"
+        android:text=" City: London \n Stadium: Emirates Stadium \n Capacity: 60,704 \n Captain: Martin Odegaard \n Manager: Mikel Arteta"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView

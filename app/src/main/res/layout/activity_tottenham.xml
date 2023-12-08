@@ -9,7 +9,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tottenham"
+        android:text="Tottenham Hotspur"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -20,7 +21,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: London \n Stadium: Hotspur Stadium \n Manager: Nuno Espírito Santo"
+        android:text=" City: London \n Stadium: Tottenham Hotspur Stadium \n Capacity: 62,850 \n Captain: Son Heung-min \n Manager: Ange Postecoglou"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView

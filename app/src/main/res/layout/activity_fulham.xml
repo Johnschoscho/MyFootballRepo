@@ -18,6 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fulham"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -28,7 +29,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: London \n Stadium: Craven Cottage \n Manager: Marco Silva"
+        android:text=" City: London \n Stadium: Craven Cottage \n Capacity: 24,500 \n Captain: Tom Cairney \n Manager: Marco Silva"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
 

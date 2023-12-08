@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF5722"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Luton Town"
-
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         />
@@ -21,7 +22,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="City: Luton \n Stadium: Kenilworth Road \n Manager: Nathan Jones"
+        android:text=" City: Luton \n Stadium: Kenilworth Road \n Capacity: 10,265 \n Captain: Tom Lockyer \n Manager: Rob Edwards"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <ImageView
