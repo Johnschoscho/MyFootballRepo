@@ -132,6 +132,10 @@ public class Activity2 extends AppCompatActivity {
 
         });
 }
+    public void openMainActivity(){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 
     public void openActivityChelsea(){
         Intent intent = new Intent(this, ActivityChelsea.class);

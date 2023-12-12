@@ -32,5 +32,15 @@
         android:textColor="@color/black"
         android:text=" City: London \n Stadium: Stamford Bridge \n Capacity: 40,173 \n Captain: Reece James \n Manager: Mauricio Pochettino "
         android:textSize="20sp" />
-
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2"/>
 </RelativeLayout>
